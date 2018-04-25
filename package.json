@@ -16,8 +16,7 @@
         "array"
     ],
     "dependencies": {
-        "BigInt": "^5.5.3",
-        "lodash": "^4.17.4",
+        "BigInt": "git+https://github.com/Sergeeeek/BigInt.git",
         "lodash.merge": "^4.6.1"
     },
     "devDependencies": {
