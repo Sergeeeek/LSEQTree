@@ -1,6 +1,6 @@
 {
     "name": "lseqtree",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Chat-Wane <grumpy.chat.wane@gmail.com>",
     "description": "A data structure for distributed arrays using the LSeq allocation strategy.",
     "main": "./lib/lseqtree.js",
@@ -17,7 +17,8 @@
     ],
     "dependencies": {
         "BigInt": "^5.4.5",
-        "lodash": "^4.17.4"
+        "lodash": "^4.17.4",
+        "lodash.merge": "^4.6.1"
     },
     "devDependencies": {
         "xtend": "^4.0.1",
@@ -30,10 +31,6 @@
         "esdoc": "^0.5.2",
         "esdoc-node": "^1.0.2"
     },
-    "bundledDependencies": [
-        "BigInt",
-        "lodash"
-    ],
     "scripts": {
         "esdoc": "esdoc && npm run",
         "test": "mocha ./test/test*",
