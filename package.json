@@ -16,7 +16,7 @@
         "array"
     ],
     "dependencies": {
-        "BigInt": "^5.4.5",
+        "BigInt": "^5.5.3",
         "lodash": "^4.17.4",
         "lodash.merge": "^4.6.1"
     },
