@@ -1,6 +1,6 @@
 {
     "name": "lseqtree",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Chat-Wane <grumpy.chat.wane@gmail.com>",
     "description": "A data structure for distributed arrays using the LSeq allocation strategy.",
     "main": "./lib/lseqtree.js",
